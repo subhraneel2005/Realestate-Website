@@ -1,10 +1,14 @@
-import HomePage from "@/components/HomePage";
-import Image from "next/image";
+"use client"
+
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+
 
 export default function Home() {
   return (
-   <div className="select-none relative">
-      <HomePage/>
+   <div className="select-none">
+      <Header/>
+      <HeroSection/>
    </div>
   );
 }
